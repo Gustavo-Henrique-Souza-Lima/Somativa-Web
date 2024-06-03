@@ -1,0 +1,34 @@
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    mix-blend-mode: color-burn;
+}
+
+body{
+    font-size: large;
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+header{
+    background-color:#b8aa95;
+
+}
+
+header{
+    background-color:#b8aa95;
+    margin: 0%;
+}
+
+.grafico{
+    margin: 0 auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: black;
+}
+

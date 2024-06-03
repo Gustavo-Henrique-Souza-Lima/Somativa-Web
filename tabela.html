@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tabela.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="img" src="barb.jpg" alt="opa"></a></header>
+    <h1>Lucro do Mês</h1>
+    <div class="grafico" style="width: 500px; height: 500px;">
+    <canvas id="Gráfico Cortes" style="width: 500px; height: 500px;"></canvas>
+    </div>
+    <script>
+        const ctx = document.getElementById('Gráfico Cortes');
+      
+        new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Lucro do Mês'],
+            datasets: [{
+            data: [4500],
+            label : 'Lucro em Reais',
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)', // Cor para a primeira barra
+                'rgba(54, 162, 235, 0.2)', // Cor para a segunda barra
+                'rgba(128, 128, 128, 1)', // Cor para a terceira barra
+                'rgba(75, 192, 192, 0.2)', // Cor para a quarta barra
+            ],
+            borderColor: [
+                'rgba(255, 99, 132, 1)', // Cor da borda para a primeira barra
+                'rgba(54, 162, 235, 1)', // Cor da borda para a segunda barra
+                'rgba(255, 206, 86, 1)', // Cor da borda para a terceira barra
+                'rgba(75, 192, 192, 1)', // Cor da borda para a quarta barra
+            ],
+            borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+            y: {
+                beginAtZero: true
+            }
+            }
+        }
+        });
+    </script>
+</body>
+</html>

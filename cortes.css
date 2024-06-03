@@ -1,0 +1,37 @@
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    mix-blend-mode: color-burn;
+}
+header{
+    background-color:#b8aa95;
+    margin: 0%;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+nav{
+    text-align: center;
+    background-color: #b8aa95;
+}
+.imagem{
+    color: black;
+    padding-top: 1%;
+    width: auto;
+
+}
+.grafico{
+    align-items: center;
+    margin: 0 auto;
+}
+script{
+    text-align: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: black;
+}
